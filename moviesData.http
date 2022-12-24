@@ -1,0 +1,33 @@
+// Returns a list of all movie names in the movie table
+// GET API 1
+GET http://localhost:3000/movies/ 
+### 
+
+// Creates a new movie in the movie table.
+// POST API 2
+POST http://localhost:3000/movies/
+###
+
+//Returns a movie based on the movie ID
+//GET API 3
+GET http://localhost:3000/movies/12/
+###
+
+//Updates the details of a movie in the movie table based on the movie ID
+// PUT API 4
+PUT http://localhost:3000/movies/81/
+###
+
+//Deletes a movie from the movie table based on the movie ID
+// DELETE API 5
+DELETE http://localhost:3000/movies/81/
+###
+
+//Returns a list of all directors in the director table
+// GET API 6
+GET http://localhost:3000/directors/
+###
+
+//Returns a list of all movie names directed by a specific director
+// GET API 7
+GET http://localhost:3000/directors/
